@@ -146,10 +146,9 @@ aside{
 }
 
 .main-title button {
-    width: 250px;
+    width: 200px;
     margin: 0px;
     margin-top: 80px;
-    margin-right: 5px;
     padding: 5px;
     padding-bottom: 10px;
     font-size: 20px;
@@ -159,7 +158,6 @@ aside{
     box-shadow: 4px 4px 4px #11111148;
     font-family: "Poppins";
     cursor: pointer;
-    
     transition-duration: .5s;
    
 }
@@ -194,23 +192,29 @@ aside{
     /*====================Inicio====================*/
 
     .main-title h1{
-        font-size: 30px;
+        font-size: 30vw;
         margin-top: 40%;
         margin-right: 15%;
         
     }
 
     .main-title h2{
-        font-size: 25px;
+        font-size: 4vw;
         margin-right: u;
     }
     
     .main-title button{
+        flex-grow: 1; /* Os botões ocuparão o espaço disponível igualmente */
         width: 150px;
         height: 70px;
+        margin: 0;
         
     }
-
+    .main-title .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px
+    }
 }
 
 /*================Sobre-mim================*/

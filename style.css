@@ -204,7 +204,7 @@ aside{
     }
     
     .main-title button{
-        flex-grow: 1; /* Os botões ocuparão o espaço disponível igualmente */
+        flex-grow: 1; 
         width: 150px;
         height: 70px;
         margin: 0;
